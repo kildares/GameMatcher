@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="player_values">
+        <item>11</item>
+        <item>7</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="player_position">
+        <item>Goal</item>
+        <item>Defense</item>
+        <item>Midfield</item>
+        <item>Attack</item>
+    </string-array>
+</resources>

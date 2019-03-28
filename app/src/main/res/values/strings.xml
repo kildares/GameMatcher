@@ -1,0 +1,138 @@
+<resources>
+    <string name="app_name">FutMatcher</string>
+
+    <string name="tv_main_title">Registered Matches</string>
+
+    <string name="text_match_title">Match Name</string>
+    <string name="text_match_location">Match Location</string>
+    <string name="text_match_date">Match Date</string>
+    <string name="text_match_num_players">N° players</string>
+    <string name="button_create">Create</string>
+    <string name="button_pick_team">Pick</string>
+    <string name="text_pick_team1">Team 1</string>
+    <string name="text_pick_team2">Team 2</string>
+    <string name="text_pick_radio_position">By position</string>
+    <string name="text_pick_radio_random">Randomly</string>
+    <string name="text_reserve_team1">Reserves 1</string>
+    <string name="text_reserve_team2">Reserves 2</string>
+    <string name="hint_title">Friends from work</string>
+    <string name="hint_match_location">123 Foo Street, Georgetown</string>
+    <string name="text_loading_message">Currently there are no matches available. You can add or wait for one to be available</string>
+
+    <string name="text_create_match_title">Create Match</string>
+    <string name="text_pick_team_title">Pick Teams</string>
+    <string name="text_detail_match_title">Match Details</string>
+    <string name="button_add_player">Add Player</string>
+    <string name="dummy_text">DUMMY TEXT</string>
+
+    <string name="text_min_players">Min Players</string>
+    <string name="text_max_players">Max Players</string>
+
+    <string name="rv_title">Match:</string>
+    <string name="rv_date">Date:</string>
+    <string name="rv_location">Location:</string>
+
+    <string name="text_title_detail_player">Players List</string>
+    <string name="bndl_match">BUNDLE_MATCH</string>
+
+    <string name="alert_hint_player_name">"John Doe"</string>
+    <string name="alert_add_title">Add a player</string>
+    <string name="alert_add_positive">Add</string>
+    <string name="alert_add_negative">Cancel</string>
+
+    <string name="toast_no_players">No players registered</string>
+    <string name="toast_could_not_pick">Could not pick teams</string>
+    <string name="toast_not_enough_players">Not enough players</string>
+
+    <string name="alert_pick_positive">Pick</string>
+
+    <string name="toast_missing_field">Please input all fields</string>
+    <string name="error_create_match">Unable to create match</string>
+    <string name="creating_match">Creating match</string>
+
+    <string name="details_location">Location:</string>
+    <string name="details_date">Date:</string>
+
+    <string name="alert_edit_player">Edit Player</string>
+    <string name="alert_negative_button">Remove Player</string>
+    <string name="alert_positive_button">Update Player</string>
+    <string name="pick_cancelled">unable to pick teams</string>
+
+    <string name="widget_match_list">Your Available Matches</string>
+    <string name="key_widget_id">key_widget_id</string>
+    <string name="key_widget_title_set">key_widget_title_set</string>
+
+    <string name="key_picked_team">id_team_picked</string>
+    <string name="key_id_match">id_match</string>
+
+    <string name="key_two_pane">key_two_pane</string>
+
+    <string name="match_title_length_too_small">The match title must have at least 5 characters</string>
+    <string name="match_location_length_too_small">The match location must have at least 5 characters</string>
+    <string name="match_date_hint">dd/mm/yy</string>
+    <string name="match_invalid_date">Invalid match date</string>
+
+    <string name="logout_dialog_title">Do you want to logout?</string>
+    <string name="logout_dialog_positive">Yes</string>
+    <string name="logout_dialog_negative">No</string>
+    <string name="logout_toast_message">Signed out successfully</string>
+
+    <string name="login_welcome">Welcome! This is the best way to meet people to play sports and have fun. Please press the button below to login</string>
+    <string name="login_enter_button">Enter</string>
+    <string name="login_error_message">Sorry, we could not login. Please try again.</string>
+
+    <string name="log_tag_firebase_service">FirebaseService</string>
+    <string name="action_create_match">CREATE_MATCH</string>
+    <string name="action_add_player">ADD_PLAYER</string>
+    <string name="action_edit_player">EDIT_PLAYER</string>
+    <string name="action_remove_player">REMOVE_PLAYER</string>
+
+    <string name="ct_login_img">Image of a football pitch</string>
+    <string name="ct_desc_toolbar">Match Details Title</string>
+    <string name="ct_desc_location">Match Location</string>
+    <string name="ct_desc_date">Match Date</string>
+    <string name="ct_desc_players">Players List</string>
+    <string name="ct_desc_add_players">Add Players Button</string>
+    <string name="ct_desc_pick_team">Pick Teams Button</string>
+
+    <string name="ct_create_toolbar">Create Match Toolbar</string>
+    <string name="ct_create_title">Create Match Title</string>
+    <string name="ct_create_location">Create Match Location</string>
+    <string name="ct_create_date">Create Match Date</string>
+    <string name="ct_create_num_players">Create Match Number of Players</string>
+    <string name="ct_create_num_players_spinner">Choose Match number of players</string>
+    <string name="ct_create_min_num_players">Create Match minimum number of players</string>
+    <string name="ct_create_min_num_players_input">Input Match minimum number of players</string>
+    <string name="ct_create_max_num_players">Create Match Maximum number of players</string>
+    <string name="ct_create_max_num_players_input">Input Match Maximum number of players</string>
+    <string name="ct_create_button">Create Match Button</string>
+
+    <string name="ct_list_toolbar">Match List Title</string>
+    <string name="ct_list_matches">List of registered matches</string>
+    <string name="ct_list_add_match">Button to add a new match</string>
+
+    <string name="ct_pick_toolbar">Pick Team Toolbar</string>
+    <string name="ct_pick_button">Pick Team Button</string>
+    <string name="ct_pick_team1_title">Team One</string>
+    <string name="ct_pick_team2_title">Team Two</string>
+    <string name="ct_pick_team1_list">List of players of team one</string>
+    <string name="ct_pick_team2_list">List of players of team two</string>
+    <string name="ct_pick_res1_title">Reserves of team one</string>
+    <string name="ct_pick_res1_list">List of reserves of team one</string>
+    <string name="ct_pick_res2_title">Reserves of team two</string>
+    <string name="ct_pick_res2_list">List of reserves of team twoo</string>
+
+    <string name="ct_match_list_item_title">Match name</string>
+    <string name="ct_match_list_item_location">Match Location</string>
+    <string name="ct_match_list_item_date">Match Date</string>
+
+    <string name="ct_radio_by_position">Choose to pick team by position</string>
+    <string name="ct_radio_randomly">Choose to pick team by position</string>
+
+    <string name="ct_widget_item">Match name</string>
+    <string name="ct_widget_match_list">List of Matches</string>
+    <string name="ct_widget_match_title">Available matches below</string>
+
+    <string name="ct_dialog_add_player_edit">Input player name</string>
+    <string name="ct_dialog_add_player_position">Choose player Position</string>
+</resources>

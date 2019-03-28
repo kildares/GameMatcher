@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="futmatcher.kildare.com.futmatcher.LoginActivity"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:scaleType="centerCrop"
+        android:elevation="6dp"
+        android:contentDescription="@string/ct_login_img"
+        app:srcCompat="@drawable/footballpitch" />
+
+
+    <TextView
+        style="@style/TitleFutTheme"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:elevation="6dp"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:text="@string/login_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2"
+        android:textAlignment="center"
+        style="@style/FutTheme"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/marginSize"
+        android:layout_marginRight="@dimen/marginSize"
+        android:layout_marginTop="@dimen/marginSize"
+        android:layout_marginBottom="@dimen/marginSize"
+        />
+
+    <Button
+        android:id="@+id/bt_login"
+        android:text="@string/login_enter_button"
+        android:layout_marginLeft="@dimen/marginSize"
+        android:layout_marginRight="@dimen/marginSize"
+        android:layout_marginTop="@dimen/marginSize"
+        android:layout_marginBottom="@dimen/marginSize"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        />
+
+</LinearLayout>
